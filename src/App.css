@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --color1: #FD5901;
+    --color2: #F78104;
+    --color3: #FAAB36;
+    --color4: #249EA0;
+    --color5: #008083;
+    --color6: #005F60;
+    --color7: #cc0000;
+    --card_color: #e1e4e4
+}
+body{
+    font-family: Montserrat;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.primary-btn{
+    background-color: transparent;
+    border-radius: 100px;
+    border: 2px solid var(--color5);
+    color: var(--color5);
+    padding: 8px 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.primary-btn:hover{
+    background-color: var(--color5);
+    color: white;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.primary-btn2{
+    background-color: transparent;
+    border-radius: 100px;
+    border: 2px solid var(--color2);
+    color: var(--color2);
+    padding: 8px 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
 }
 
-.App-link {
-  color: #61dafb;
+.primary-btn2:hover{
+    background-color: var(--color2);
+    color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.primary-btn3{
+    background-color: transparent;
+    border-radius: 100px;
+    border: 2px solid var(--color7);
+    color: var(--color7);
+    padding: 8px 16px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+}
+
+.primary-btn3:hover{
+    background-color: var(--color7);
+    color: white;
 }

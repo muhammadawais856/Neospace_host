@@ -1,0 +1,63 @@
+/* Main container */
+.request_detail_main {
+  padding: 20px;
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+/* Back arrow button */
+
+
+/* Card */
+.request_detail_card {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Fields */
+.request_field {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.request_field strong {
+  display: inline-block;
+  width: 150px;
+  color: #555;
+}
+
+/* Admin actions */
+.admin_action {
+  margin-bottom: 20px;
+}
+
+.admin_action label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.admin_action select,
+.admin_action textarea {
+  width: 50%;
+  padding: 8px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  resize: none;
+}
+
+.admin_action textarea {
+  height: 80px;
+}
+
+.submit_btn {
+    display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+/* Submit button */
+
