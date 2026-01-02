@@ -10,7 +10,7 @@
 .cart_outer {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 21px;
 }
 
 
